@@ -56,7 +56,7 @@ SELECT us.Z303_REC_KEY ,  SUBSTR(ext.Z308_REC_KEY,3) as external_id,
     us.Z303_NAME,
     concat('','folio-test@umass.edu') as email1,
     --address1.Z304_EMAIL_ADDRESS as email1,
-    concat(threeohfive.Z305_BOR_TYPE,'MH') as patronGroup,
+    concat(threeohfive.Z305_BOR_STATUS,'MH') as patronGroup,
     threeohfive.Z305_BOR_TYPE,
  
     threeohfive.Z305_EXPIRY_DATE,
